@@ -1,0 +1,143 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="openh264-1.8.0-win64.dll" />
+    <None Remove="resources\calibrationImage\fromVideo\IMG_20230409_063736_10_022.jpg" />
+    <None Remove="resources\calibrationImage\fromVideo\VID_20230409_131007_10_039 - frame at 0m13s.jpg" />
+    <None Remove="resources\calibrationImage\fromVideo\VID_20230409_131007_10_039 - frame at 0m16s.jpg" />
+    <None Remove="resources\calibrationImage\fromVideo\VID_20230409_131007_10_039 - frame at 0m19s.jpg" />
+    <None Remove="resources\calibrationImage\fromVideo\VID_20230409_131007_10_039 - frame at 0m26s.jpg" />
+    <None Remove="resources\calibrationImage\fromVideo\VID_20230409_131007_10_039 - frame at 0m28s.jpg" />
+    <None Remove="resources\calibrationImage\fromVideo\VID_20230409_131007_10_039 - frame at 0m45s.jpg" />
+    <None Remove="resources\calibrationImage\fromVideo\VID_20230409_131007_10_039 - frame at 1m0s.jpg" />
+    <None Remove="resources\calibrationImage\fromVideo\VID_20230409_131007_10_039 - frame at 1m13s.jpg" />
+    <None Remove="resources\calibrationImage\fromVideo\VID_20230409_131007_10_039 - frame at 1m5s.jpg" />
+    <None Remove="resources\calibrationImage\IMG_20230409_063631_10_018.jpg" />
+    <None Remove="resources\calibrationImage\IMG_20230409_063649_10_019.jpg" />
+    <None Remove="resources\calibrationImage\IMG_20230409_063701_10_020.jpg" />
+    <None Remove="resources\calibrationImage\IMG_20230409_063721_10_021.jpg" />
+    <None Remove="resources\calibrationImage\IMG_20230409_063736_10_022.jpg" />
+    <None Remove="resources\calibrationImage\IMG_20230409_063803_10_023.jpg" />
+    <None Remove="resources\calibrationImage\IMG_20230409_063821_10_024.jpg" />
+    <None Remove="resources\calibrationImage\IMG_20230409_063846_10_025.jpg" />
+    <None Remove="resources\calibrationImage\IMG_20230409_063911_10_026.jpg" />
+    <None Remove="resources\calibrationImage\IMG_20230409_063930_10_027.jpg" />
+    <None Remove="resources\calibrationImage\IMG_20230409_064004_10_028.jpg" />
+    <None Remove="resources\calibrationImage\IMG_20230409_064024_10_029.jpg" />
+    <None Remove="resources\calibrationImage\IMG_20230409_064039_10_030.jpg" />
+    <None Remove="resources\calibrationImage\IMG_20230409_064103_10_031.jpg" />
+    <None Remove="resources\calibrationImage\IMG_20230409_064126_10_032.jpg" />
+    <None Remove="resources\calibrationImage\IMG_20230409_064146_10_033.jpg" />
+    <None Remove="resources\calibrationImage\IMG_20230409_064159_10_034.jpg" />
+    <None Remove="resources\calibrationImage\IMG_20230409_064215_10_035.jpg" />
+    <None Remove="resources\calibrationImage\IMG_20230409_064229_10_036.jpg" />
+    <None Remove="resources\distortions\VID_20230409_115300_10_037.mp4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="openh264-1.8.0-win64.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\fromVideo\IMG_20230409_063736_10_022.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\fromVideo\VID_20230409_131007_10_039 - frame at 0m13s.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\fromVideo\VID_20230409_131007_10_039 - frame at 0m16s.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\fromVideo\VID_20230409_131007_10_039 - frame at 0m19s.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\fromVideo\VID_20230409_131007_10_039 - frame at 0m26s.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\fromVideo\VID_20230409_131007_10_039 - frame at 0m28s.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\fromVideo\VID_20230409_131007_10_039 - frame at 0m45s.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\fromVideo\VID_20230409_131007_10_039 - frame at 1m0s.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\fromVideo\VID_20230409_131007_10_039 - frame at 1m13s.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\fromVideo\VID_20230409_131007_10_039 - frame at 1m5s.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\IMG_20230409_063631_10_018.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\IMG_20230409_063649_10_019.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\IMG_20230409_063701_10_020.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\IMG_20230409_063721_10_021.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\IMG_20230409_063736_10_022.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\IMG_20230409_063803_10_023.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\IMG_20230409_063821_10_024.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\IMG_20230409_063846_10_025.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\IMG_20230409_063911_10_026.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\IMG_20230409_063930_10_027.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\IMG_20230409_064004_10_028.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\IMG_20230409_064024_10_029.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\IMG_20230409_064039_10_030.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\IMG_20230409_064103_10_031.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\IMG_20230409_064126_10_032.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\IMG_20230409_064146_10_033.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\IMG_20230409_064159_10_034.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\IMG_20230409_064215_10_035.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\calibrationImage\IMG_20230409_064229_10_036.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\distortions\VID_20230409_115300_10_037.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenCvSharp4.Windows" Version="4.9.0.20240103" />
+  </ItemGroup>
+
+</Project>

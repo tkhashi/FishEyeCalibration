@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Calibrater\**" />
+    <Compile Remove="Row2Jpg\**" />
+    <EmbeddedResource Remove="Calibrater\**" />
+    <EmbeddedResource Remove="Row2Jpg\**" />
+    <None Remove="Calibrater\**" />
+    <None Remove="Row2Jpg\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Magick.NET-Q16-AnyCPU" Version="13.5.0" />
+    <PackageReference Include="OpenCvSharp4.Windows" Version="4.9.0.20240103" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="Calibrater\Calibration.csproj" />
+    <ProjectReference Include="Row2Jpg\DngConverter.csproj" />
+  </ItemGroup>
+
+</Project>
